@@ -8,4 +8,8 @@ echo "Setting up dotfiles..."
 echo "> Setup fish shell..."
 scripts/setup-fish.sh
 
+# Neovim
+echo "> Setup Neovim..."
+scripts/setup-neovim.sh
+
 echo "Done!"
